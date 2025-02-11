@@ -13,16 +13,18 @@ for (let index = 0; index < pAtParty.length; index++){
     const person = pAtParty [index]
 
 if (person.isPapa){
-console.log("papa found");
-}
-else{
-console.log("papa not found");
-
-
-}
+console.log(   `PAPA FOUND AT ${index}`)
+return true;
 }
 
+}
+{
+    console.log("papa not found");
+    
+    return false;
+    
+    }
 
 }
 
-console.log(findPapa());
+findPapa();
