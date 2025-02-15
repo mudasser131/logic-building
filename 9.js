@@ -10,3 +10,4 @@ function findFactorial(number) {
 }
 
 console.log(findFactorial(5)); // Output: 120
+console.log(findFactorial(4))
